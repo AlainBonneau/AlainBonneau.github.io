@@ -96,11 +96,24 @@
     text-decoration: line-through;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1130px) {
+    .main {
+        width: inherit;
+    }
     .product__sale {
         display: none;
     }
+}
+
+@media screen and (max-width: 1037px) {
     .main__article-container {
+        width: initial;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .main__article-container {
+        width: 90%;
         flex-direction: column;
     }
 }
