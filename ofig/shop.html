@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oFig - Panier</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="red-container">
+            <a href="index.html"><h1 class="header__title">oFig <span class="header__title--active">Figurines et statuettes</span></h1></a>
+        </div>
+        <h2 class="header__subtitle">Figurines sur le thème <span class="header__subtitle--active">Final Fantasy</span></h2>
+    </header>
+
+    <main class="main">
+
+        <h2 class="cart__title">Votre panier</h2>
+        <!-- start table -->
+        <section class="main__cart">
+            <table class="main-table">
+                <thead class="main-table__head">
+                    <tr>
+                        <th>Firugine</th>
+                        <th>Prix unitaire</th>
+                        <th>Quantité</th>
+                    </tr>
+                </thead>
+                <tbody class="main-table__body">
+                    <tr>
+                        <td>Cloud Strife</td>
+                        <td>59 €</td>
+                        <td><input class="main-table__input" type="text" placeholder="1"><a class="main-table__links" href="#">supprimer</a></td>
+                    </tr>
+                    <tr>
+                        <td>Tifa Lockhart</td>
+                        <td>69 €</td>
+                        <td><input class="main-table__input" type="text" placeholder="1"><a class="main-table__links" href="#">supprimer</a></td>
+                    </tr>
+                    <tr>
+                        <td>Barret Wallace</td>
+                        <td>69 €</td>
+                        <td><input class="main-table__input" type="text" placeholder="1"><a class="main-table__links" href="#">supprimer</a></td>
+                    </tr>
+                    <tr>
+                        <td class="main-table__total" colspan="2">Total de la commande:</td>
+                        <td class="main-table__price">197 €</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- End table -->
+        <!-- start form -->
+
+        <h2 class="form__title">Préférences de livraison</h2>
+
+        <section class="main-form">
+            <form class="main-form__form">
+                <div class="main-form__left">
+                    <h3 class="main-form__title">Où souhaitez-vous être livré ?</h3>
+                    <label>
+                        <input type="radio" name="adress" id="adress">Mon adresse courante <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="adress" id="adress">Autre adresse
+                    </label>
+                    <h3 class="main-form__title">Options</h3>
+                    <label>
+                        <input type="checkbox" name="sms" id="sms">Suivi de livraison par sms (inclus) <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="satisfait" id="satisfait">satisfait ou remboursé (+ 2 euros) <br>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="garantie" id="garantie">Garantie 2 ans (+ 10 euros)
+                    </label>
+                </div>
+                <div class="main-form__right">
+                    <h3 class="main-form__title">Adresse</h3>
+                    <p>Rue</p>
+                    <input class="main-form__text" type="text">
+                    <p>Code postal</p>
+                    <input class="main-form__text" type="text">
+                    <p>Ville</p>
+                    <input class="main-form__text" type="text">
+                    <h3 class="main-form__title">Informations complémentaires</h3>
+                    <p>interphone, bâtiment, etc.</p>
+                    <textarea cols="32" rows="2"></textarea>
+                </div>
+            </form>
+        </section>
+        <!-- End form -->
+
+        <section class="final-price">
+            <p class="final-price__total">Montant total à régler:</p>
+            <p class="final-price__price">197 €</p>
+        </section>
+
+        <section class="main-validation">
+            <a class="main-validation__links" href="index.html">Continuer vos achats</a>
+            <a class="main-validation__links--valide" href="#">Valider et payer</a>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <h6 class="footer__title">oFig - toutes les images sont sous copyright SquareEnix</h6>
+    </footer>
+
+
+</body>
+</html>
