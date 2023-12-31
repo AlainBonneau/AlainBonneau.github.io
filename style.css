@@ -4,8 +4,8 @@
     --color-black: #000;
 
 
-    --color-primary: #EEEEEE;
-    --color-secondary: #8B0101;
+    --color-primary: #8dc6ff;
+    --color-secondary: #22313f;
 
 
 }
@@ -17,15 +17,21 @@
 }
 
 body {
-    background-color: var(--color-primary);
+    height: 100vh;
+    width: 100%;
+    background: url(./bg.jpg) center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.css {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.nav {
-    display: flex;
-    flex-direction: column;
 }
 
 .links {
