@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url(./bgjs.jpeg) center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
