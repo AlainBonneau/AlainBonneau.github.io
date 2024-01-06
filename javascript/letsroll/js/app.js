@@ -194,7 +194,7 @@ function rollDice() {
         monImage1.style.backgroundPosition = "100px 0"
     } if (randomNumber5 === 6) {
         document.querySelector(".dice")
-        monImage1.style.backgroundPosition = "100px 0"
+        monImage5.style.backgroundPosition = "100px 0"
     }
 
 }
