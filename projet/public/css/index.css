@@ -1,0 +1,174 @@
+        /* HEADER */
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.header__color-container {
+    height: 10vh;
+    background-color: var(--color-secondary);
+}
+
+.header__item-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__title {
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.header__link {
+    color: var(--color-secondary);
+    padding: 15px 30px;
+    background-color: var(--color-btn);
+    border: 1px solid #CCA421;
+    border-radius: 25px;
+}
+
+        /* MAIN */
+
+.main-description {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: row;
+}
+
+        /* Présentation (coter gauche) ! */
+
+.main-description__left {
+    height: 100vh;
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-description__information {
+    padding-bottom: 50px;
+    border-bottom: 2px solid var(--color-btn);
+    display: flex;
+}
+
+.main-description__img {
+    width: 280px;
+    padding-right: 25px;
+}
+
+.main-description__title {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.main-description__citation {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 0.8rem;
+    background-color: #FFEE64;
+    display: inline-block
+}
+
+.main-description__list {
+    padding: 30px;
+}
+
+.main-description__link-container {
+    padding: 80px 0;
+}
+
+.main-description__link {
+    color: var(--color-secondary);
+    padding: 15px 50px;
+    margin: 0 10px;
+    background-color: var(--color-btn);
+    border: 1px solid #CCA421;
+    border-radius: 25px;
+}
+
+
+        /* Jauge de personnalité (coter droit) */
+
+.main-description__right {
+    height: 100vh;
+    width: 50%;
+    /* padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px; */
+}
+
+.main-description__right-img {
+    width: 600px;
+    margin: 40px auto;
+}
+
+        /* Section lien */
+
+.link-description {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.link-description__left {
+    background-color: var(--color-secondary);
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-description__left-link {
+    color: var(--color-primary);
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.link-description__right {
+    background-color: var(--color-primary);
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-description__right-link {
+    color: var(--color-secondary);
+    font-weight: 900;
+    font-size: 7rem;
+}
+
+.footer {
+    height: 40vh;
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-container {
+    background-color: var(--color-secondary);
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.footer-container__link {
+    color: var(--color-secondary);
+    padding: 15px 50px;
+    background-color: var(--color-btn);
+    border: 1px solid #CCA421;
+    border-radius: 25px;
+}
