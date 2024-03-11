@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root {
-
-    --color-primary: #FFF7DF;
-    --color-secondary: #1E1E1E;
+    --color-primary: #8B160D;
+    --color-secondary: #8B969C;
     
     
-    --color-box: #FFE8A3;
-    --color-btn: #FFCD29;
-
-
+    --color-btn: #F0FFF0;
+    
+    
+    /* --color-primary: #DCE1E5; */
+    /* --color-red: #8B160D; */
 
 }
 
@@ -21,4 +22,3 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-
