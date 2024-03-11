@@ -148,7 +148,7 @@
 }
 
 .main-bio__container-right > a:hover {
-    color: var(--color-btn);
+    color: #000;
     transition: 0.5s ease;
 }
 
@@ -168,7 +168,6 @@
 
 .main-bestiary__monster-card {
     background-color: #A52A2A;
-    opacity: 0.9;
     margin: 20px;
     height: 80%;
     width: 80%;
@@ -178,6 +177,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-bestiary__monster-card:hover {
+    transition: 0.3s ease;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .main-bestiary > h2 {
@@ -209,6 +215,12 @@
     font-weight: 400;
     font-size: 1rem;
     border-radius: 15px;
+}
+
+.main-bestiary__link > a:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: 0.3s ease;
 }
 
 /* Section histoire */
@@ -245,6 +257,13 @@
     font-size: 1rem;
     border-radius: 15px;
 }
+
+.main-history > a:hover {
+    background-color: var(--color-primary);
+    color: #fff;
+    transition: 0.3s ease;
+}
+
 
 /* Section footer */
 
