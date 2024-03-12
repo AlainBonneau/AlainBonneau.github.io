@@ -284,6 +284,13 @@
     background-color: var(--color-primary);
 }
 
+.footer > p {
+    font-size: 1rem;
+    color: #FFF7DF;
+    font-family: "Permanent Marker", cursive;
+
+}
+
 
 /* Tablet version */
 @media only screen and (max-width: 800px) and (min-width: 500px) {
