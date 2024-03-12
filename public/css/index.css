@@ -56,8 +56,9 @@
 
 .header-navbar__computer > a {
     padding: 15px 30px;
-    border: 2px solid var(--color-btn);
-    color: var(--color-btn);
+    background-color: var(--color-primary);
+    border: 2px solid black;
+    color: black;;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-size: 1rem;
@@ -66,7 +67,12 @@
 
 .header-navbar__computer > a:hover {
     background-color: var(--color-primary);
+    color: white;
     transition: 0.5s ease;
+}
+
+.open-menu {
+    color: var(--color-primary);
 }
 
 
@@ -85,12 +91,12 @@
 
 .header > a {
     font-size: 3rem;
-    color: var(--color-btn);
+    color: var(--color-primary);
     margin-bottom: 30px;
 }
 
 .header > a:hover {
-    color: var(--color-primary);
+    color: white;
     transition: 0.5s ease;
 }
 
@@ -195,6 +201,7 @@
 }
 
 .monster-card__paragraph {
+    color: #FFF7DF;
     text-align: center;
     padding: 20px;
     font-size: 2rem;
