@@ -3,7 +3,7 @@
     background-color: #FFF7DF;
 }
 
-/* Navbar mobile */
+/* Navbar menu-mobile */
 
 .header-navbar__mobile {
     position: absolute;
@@ -226,7 +226,7 @@
 
 .main-bestiary__link > a:hover {
     background-color: var(--color-primary);
-    color: #fff;
+    color: var(--color-white);
     transition: 0.3s ease;
 }
 
@@ -267,7 +267,7 @@
 
 .main-history > a:hover {
     background-color: var(--color-primary);
-    color: #fff;
+    color: var(--color-white);
     transition: 0.3s ease;
 }
 
