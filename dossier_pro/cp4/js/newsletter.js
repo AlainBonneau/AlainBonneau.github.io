@@ -12,12 +12,12 @@ closeNewsLetter.addEventListener("click", (e) => {
   newsLetter.classList.add("newsletter--hidden");
 });
 
-window.addEventListener("scroll", () => {
-  const scrollPosition = window.scrollY;
+// window.addEventListener("scroll", () => {
+//   const scrollPosition = window.scrollY;
 
-  if (scrollPosition > 500) {
-    newsLetter.classList.remove("newsletter--hidden");
-  } else {
-    newsLetter.classList.add("newsletter--hidden");
-  }
-});
+//   if (scrollPosition > 500) {
+//     newsLetter.classList.remove("newsletter--hidden");
+//   } else {
+//     newsLetter.classList.add("newsletter--hidden");
+//   }
+// });
