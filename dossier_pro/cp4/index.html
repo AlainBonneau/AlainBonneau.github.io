@@ -23,7 +23,7 @@
             <div class="menu">
               <a class="menu__item" href=""><i class="icon-heart"></i> Favoris</a>
               <a id="newsletter__open btn" class="menu__item" href=""><i class="icon-mail"></i> Newsletter</a>
-              <a class="menu__item" href=""><i class="icon-check-circle"></i> Avis</a>
+              <a class="menu__item" href="#avis"><i class="icon-check-circle"></i> Avis</a>
               <button id="theme-dark" class="btn" type="button" aria-label="Changer le thème"><i class="icon-moon"></i></button>
               <div class="menu__color-switcher">
                 <button id="theme-green" class="theme-button" type="button" aria-label="Changer la couleur du thème"></button>
@@ -53,7 +53,6 @@
       <h1 class="content__title">Partir en voyage</h1>
 
       <section class="slider">
-        <!-- Mettre en place un slider avec 3 images -->
         <button class="btn slider__btn" type="button" aria-label="Précédent">&lt;</button>
         <img class="slider__img slider__img--current" src="img/nature.jpg" alt="Image de la nature">
         <img class="slider__img" src="img/ski.jpg" alt="Image d'une piste de ski">
@@ -130,7 +129,7 @@
         </div>
       </section>
 
-      <section class="segment">
+      <section id="avis" class="segment">
         <h2 class="segment__title">Derniers commentaires</h2>
         <div class="filters">
           <span class="filter">
@@ -234,6 +233,7 @@
   </footer>
   <script src="./js/newsletter.js"></script>
   <script src="./js/slider.js"></script>
+  <script src="./js/avis.js"></script>
   <script src="./js/theme.js"></script>
 </body>
 </html>
