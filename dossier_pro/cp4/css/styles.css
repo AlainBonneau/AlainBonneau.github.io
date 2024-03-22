@@ -199,7 +199,7 @@ p {
   position: relative;
   height: 20em;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 }
 
@@ -211,12 +211,14 @@ p {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity .3s;
+  transition: 0.3s ease-in-out;
 }
 
 .slider__img--current {
   opacity: 1;
   z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 .slider__btn {
